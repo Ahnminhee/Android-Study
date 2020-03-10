@@ -1,0 +1,4 @@
+#Thu Jan 30 13:48:24 KST 2020
+base.0=C\:\\Users\\user\\Desktop\\mh_study\\MySnackBar\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
