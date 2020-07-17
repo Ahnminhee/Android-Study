@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     XmlPullParser xpp;
     XmlPullParserFactory factory;
     private StringBuffer buffer = new StringBuffer();
-    private String key = "l640r40BkQ%2Bmi6ZO9AvHYmCZZk%2BBVEBg%2BSG%2BKnR4Mn5MSa6Yv03XrQ2nlHVQST94XYFxPAn3rG2nExAqrm%2F2dg%3D%3D";
+    
     String data;
     String tag;
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     String getXmlData() {
-        String queryUrl = "http://openapitraffic.daejeon.go.kr/api/rest/busposinfo/getBusPosByRtid"
+        String queryUrl = "http://apis.data.go.kr/1741000/DisasterMsg2"
                 + "&pageNo=1&numOfRows=10&ServiceKey=" + key;
 
         try{
