@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String key = "l640r40BkQ%2Bmi6ZO9AvHYmCZZk%2BBVEBg%2BSG%2BKnR4Mn5MSa6Yv03XrQ2nlHVQST94XYFxPAn3rG2nExAqrm%2F2dg%3D%3D";
+    private final String key = "";
     private final String endPoint = "http://openapitraffic.daejeon.go.kr/api/rest/busposinfo/getBusPosByRtid";
 
     private EditText busNum_edit;
